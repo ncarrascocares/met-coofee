@@ -1,0 +1,194 @@
+body{
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body *{
+    margin: 0;
+    border: 0;
+    padding: 0;
+   
+}
+
+
+h1{
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+#Titulo{
+    font-size: 1.5em;
+    padding: 10px;
+}
+h2{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.75em;
+}
+
+h5{
+    font-size: 1.25em;
+}
+
+.subtitulo, h4, h5{
+    font-weight: 400;
+}
+
+.oscuro{
+    background: #000f08;
+    color: white;
+}
+
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sweet-brown{
+    background: #a4452c;
+    color: #ffffff;;
+    text-align: left;
+    padding: 50px;
+    white-space: nowrap;
+}
+.hero-section{
+    text-align: right;
+    background-image: url('/assets/img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding:6.25rem 3.125rem;
+}
+
+section, footer{
+    margin-top: 75px;
+}
+
+footer{
+    padding: 50px;
+}
+
+.charla-texto, .evento{
+    display: inline-block;
+}
+
+.charla-speaker{
+    width: 25%;
+    vertical-align:middle;
+    
+}
+
+.charla-texto{
+    width: 70%;
+    vertical-align:middle;
+    margin-left: 5%;
+    white-space: normal;
+}
+
+nav{
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+   
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+.icono{
+    width: 2rem;
+}
+
+.icono svg{
+    fill: #ffffff;
+}
+
+footer i{
+    margin: 0 0.25em 0.5em 0.25em;
+}
+/* :hover  Elemento que permite darle acción al contenido, en este caso dara opacidad a la imagen al pasar con el puntero sobre ella*/
+.img-simposio:hover{
+     opacity: .6;
+}
+
+/*Segunda pagina*/
+
+/*Al body de la segunda pagina le asigne un estilo de letra, la cual se solicita en el desafio*/
+body *{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+/*Clase solicitada en el desafio, le aplique un margen superior, un color, un ancho, y un margen, el cual lo deja centrado*/
+.content{    
+    margin-bottom: 2px;
+    color:#000f08;
+    width: 39.500em;
+    margin: auto;
+}
+
+/*En la segunda pagina deje el nav fijo y para no interferir con el estilo de la pagina index, solo modifique la posicion del nav de la segunda pagina agregandole un id al nav, con eso hago referencía al nav de la segunda pagina*/
+#nav{
+    position: inherit;
+}
+/*En esta clase estoy dando estilo al texto, al cual lo estoy alineando a la izquierda, tambien estoy agregando un peso a las letras, en este caso de 800 (solicitado en el desafio) un margen interno para alejarlos de los bordes, y un margen superior */
+.primer-parrafo-pagina2{
+    text-align:left;
+    font-weight: 800;
+    padding: 0.5em;
+    margin-top: 80px; 
+}
+
+/*En esta clase doy estilo al titulo de la segunda pagina, le doy un tamaño, un margen superior y un peso de 800*/
+.content h1{
+    font-size: 30px;
+    margin-top: -52px;
+    font-weight: 800;
+}
+
+/*En esta clase doy estilo al sub-titulo de la segunda pagina, le doy un tamaño, un margen superior y un peso de 800*/
+.content h2{
+    font-size: 25px;
+    margin-top: 10px;
+     font-weight: 800;
+}
+
+/*En esta clase doy estilo a los parrafos de la segunda pagina, agrego un margen superior y un peso de 400 y defino un color*/
+p{
+    font-weight: 400;
+    margin-top: 0.625em;
+    color:#000f08;
+}
+
+/*Estilo para definir los valores de la imagen, estoy dando un margen superior y un ancho*/
+.imagen-pagina2{
+    margin-top: 10px;
+    width: 600px;
+}
+
+/*Estilo para darle color a las letras que estan en el footer, esto es solo a las letras*/
+.oscuro .texto-footer{
+    color: #ffffff;
+}
+/***************************************/
+
